@@ -1,0 +1,72 @@
+
+
+* {   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    background-image: url('https://bbts1.azureedge.net/images/p/full/2021/06/1808d400-f7f0-480e-8005-42685002a413.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 35%;
+    padding: 10 10%;
+  }
+
+  img {
+    display: outside;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+    
+  .container {
+    margin: 200px auto;
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+  .card {
+    background-color: rgb(107, 122, 136);
+    color: rgb(56, 19, 219);
+    border-radius: 40px;
+    border-color: ghostwhite;
+    display: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 800px;
+    opacity: 0.8;
+
+}
