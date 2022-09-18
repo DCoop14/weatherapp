@@ -42,6 +42,9 @@ const loadData = async (zipCodes)=>{
 };
 
 const getDataWeather = async (weather) => {
+    document.querySelectorAll('.card').forEach(card=> {
+        card.remove()
+    })
     const card = document.createElement('div')
     card.innerHTML = 
     `
